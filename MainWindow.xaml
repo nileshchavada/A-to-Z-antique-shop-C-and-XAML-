@@ -1,0 +1,109 @@
+﻿<Window x:Name="window1" x:Class="A_to_Z_Antique_Shop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:A_to_Z_Antique_Shop"
+        mc:Ignorable="d"
+       Loaded="Window_Loaded"
+        Title="MainWindow" Height="570" Width="1200" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Height="43" VerticalAlignment="Top" Background="AntiqueWhite" Grid.Column="1" Margin="-30,0,0,0" Grid.ColumnSpan="3">
+            <TextBlock Height="23" TextWrapping="Wrap" Text="A  to Z  Antique shop" HorizontalAlignment="Left" Width="150" Margin="8,10,0,0" FontSize="15" FontWeight="Bold" Background="AntiqueWhite"/>
+        </StackPanel>
+        <StackPanel Height="27" VerticalAlignment="Top" Background="#FFEBEBEB" Grid.Column="1" Margin="0,42,0,0" Grid.ColumnSpan="3">
+            <TextBlock TextWrapping="Wrap" FontFamily="Arial"  FontSize="12" Text="Item Manage" Height="18" Margin="8,10,842,20" FontWeight="Bold" HorizontalAlignment="Left" Width="105"/>
+
+        </StackPanel>
+        <StackPanel x:Name="window" Margin="0,75,742,10" Orientation="Vertical" Grid.Column="1">
+            <TextBlock  FontFamily="Arial"  FontSize="12" Foreground="black" Margin ="5,0,10,0" Height="20"><Run Text="Enter the Item to filter "/></TextBlock>
+            <TextBox x:Name="Tbx_Filter" FontSize="12" Width="149" FontFamily="Arial"  TextChanged="Tbx_Filter_TextChanged" HorizontalAlignment="Left" Text="" Height="15" Margin="5,0,0,0"/>
+            <ListBox x:Name="Lbx_Items" HorizontalAlignment="Left" Height="350" Margin="5,0,0,0"
+              FontFamily="Arial"  FontSize="12"  VerticalAlignment="Top" Width="205"  SelectionChanged="Lbx_items_SelectionChanged">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Margin="0,0,0,4">
+                            <Image Source="{Binding imagePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Height="30"/>
+                             <Run Text=" "/>
+                            <Run Text="{Binding ItemName}" FontFamily="Arial" FontWeight="Bold" />
+                           <LineBreak/>
+                               <Run Text="{Binding yearofmade}" FontFamily="Arial"/>
+
+                        </TextBlock>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+
+
+
+
+            <StackPanel Orientation="Horizontal" Height="50" Margin="5,5,10,0">
+                <Button  x:Name ="Btn_add" Content="Add " FontFamily="Arial"  FontSize="12" HorizontalAlignment="Right" Width="70" Height="30" Click="Btn_add_Click" Margin="0,0,8,0" Background="#FFEBEBEB"
+                         />
+                <Button  x:Name ="Btn_del" Content="Delete" FontFamily="Arial"  FontSize="12" HorizontalAlignment="Left" Margin="0,0,8,0" Height="30" Width="70" Background="#FFEBEBEB" Click="Btn_del_Click"  
+                         />
+            </StackPanel>
+
+
+
+        </StackPanel>
+
+
+        <StackPanel Grid.Column="1" Margin="255,75,-173,10" Orientation="Vertical" DataContext="{Binding ElementName=Lbx_Items, Path=SelectedItem}">
+            <StackPanel Orientation="Horizontal" Height="20" Margin="0,10,300,8">
+
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,5,6" VerticalAlignment="Top"  Text="Item Name" Width="75" FontSize="12" Foreground="Black" FontFamily="Arial"/>
+                <TextBox  TextWrapping="WrapWithOverflow" FontSize="12" Text="{Binding ItemName}" Height="20" Width="320" Margin="30,-4,0,4" FontFamily="Arial" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="20" Margin="0,10,300,8">
+                <TextBlock HorizontalAlignment="Left" TextWrapping="NoWrap" Margin="0,0,5,6"  Text="Manufacture Year" Width="105" FontSize="12" Foreground="Black" FontFamily="Arial"/>
+                <TextBox  TextWrapping="WrapWithOverflow" Margin="0,-4,0,4" FontFamily="Arial" FontSize="12" Text="{Binding yearofmade}" Width="320" Height="20" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="20" Margin="0,10,300,8">
+                <TextBlock HorizontalAlignment="Left" TextWrapping="NoWrap" Margin="0,0,5,6"  Text="Category" Width="75" FontSize="12" Foreground="Black" FontFamily="Arial"/>
+                <ComboBox Text="{Binding Category}" Margin="30,-4,0,4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="320" FontFamily="Arial" FontSize="12" Height="20">
+                    <ComboBoxItem Content="Furniture" HorizontalAlignment="Left" Width="208"/>
+                    <ComboBoxItem Content="Light" HorizontalAlignment="Left" Width="208"/>
+                    <ComboBoxItem Content="Mirror" HorizontalAlignment="Left" Width="208"/>
+                    <ComboBoxItem Content="Clock" HorizontalAlignment="Left" Width="208"/>
+                    <ComboBoxItem Content="Kitchen" HorizontalAlignment="Left" Width="208"/>
+                </ComboBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="170" Margin="0,10,300,8">
+                <TextBlock HorizontalAlignment="Left" TextWrapping="NoWrap" Margin="0,0,5,156"  Text="Descreption" Width="75" FontSize="12" Foreground="Black" FontFamily="Arial"/>
+                <TextBox  TextWrapping="WrapWithOverflow"  FontFamily="Arial" FontSize="12" Text="{Binding descreption}" Height="160"  Width="320" Margin="30,-12,0,22" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="20" Margin="0,10,300,8">
+
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,5,6" VerticalAlignment="Top"  Text="Price €" Width="75" FontSize="12" Foreground="Black" FontFamily="Arial"/>
+                <TextBox  TextWrapping="WrapWithOverflow" FontFamily="Arial" FontSize="12" Text="{Binding price}" Width="320" Margin="30,-4,0,4" Height="20"  />
+
+
+            </StackPanel>
+            <StackPanel VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,-305,325,0" Orientation="Vertical" Width="290" Height="240">
+                <Image Height="235" VerticalAlignment="Top"  Grid.Column="1" Grid.Row="1" Source="{Binding imagePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" DataContext="{Binding SelectedItem,ElementName=Lbx_Items}" MouseLeftButtonDown="Img_profile_MouseLeftButtonDown" />
+
+            </StackPanel>
+        </StackPanel>
+
+
+
+
+        <Grid Name="Grd_Menu" HorizontalAlignment="Left" Height="500" VerticalAlignment="Top" Width="25" Margin="0,45,0,0"  MouseEnter="Grd_Menu_MouseEnter" MouseLeave="Grd_Menu_MouseLeave" Background="AntiqueWhite" Grid.ColumnSpan="2" >
+            <Image Source ="Images/menu.png" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,480" Width="15"/>
+
+            <Button x:Name="btn_item_manage"  Content="Item Manage"  HorizontalAlignment="Center"  VerticalAlignment="Top"  Background="AntiqueWhite"  Width="100" Grid.Column="1" Margin="30,63,20,10" Height="50" FontFamily="Arial" FontWeight="Bold"/>
+
+            <Button x:Name="btn_Bill"  Content="Bill" HorizontalAlignment="Right" Background="AntiqueWhite" VerticalAlignment="Top" Width="100" Grid.Column="1" Margin="30,150,20,10" Height="50" FontFamily="Arial" FontWeight="Bold" Click="btn_Bill_Click" />
+
+
+        </Grid>
+    </Grid>
+</Window>
+ 

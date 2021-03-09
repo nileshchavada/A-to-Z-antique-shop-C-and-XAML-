@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<ArrayOfBill xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Bill>
+    <CustomerName>Peter Jahn</CustomerName>
+    <Phone>17628960478</Phone>
+    <ItemName>chair</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>1000</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Lisa John </CustomerName>
+    <Phone>15127098775</Phone>
+    <ItemName> clock</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>2000</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Anja Roxe</CustomerName>
+    <Phone>17627078775</Phone>
+    <ItemName>silver plates</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>200</price>
+  </Bill>
+  <Bill>
+    <CustomerName>cris marsh</CustomerName>
+    <Phone>15127098789</Phone>
+    <ItemName>light</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>1250</price>
+  </Bill>
+  <Bill>
+    <CustomerName>leah waden</CustomerName>
+    <Phone>15122588775</Phone>
+    <ItemName>Chandilier</ItemName>
+    <Date>2020-01-02T00:00:00</Date>
+    <price>1450</price>
+  </Bill>
+  <Bill>
+    <CustomerName>jatin chauhan</CustomerName>
+    <Phone>17627098785</Phone>
+    <ItemName>silver spoon</ItemName>
+    <Date>2020-01-03T00:00:00</Date>
+    <price>800</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Hanh Roxe</CustomerName>
+    <Phone>15127098775</Phone>
+    <ItemName>spoon silver</ItemName>
+    <Date>2020-01-04T00:00:00</Date>
+    <price>1450</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Martin Husssy</CustomerName>
+    <Phone>15128940775</Phone>
+    <ItemName>Mirrror</ItemName>
+    <Date>2020-01-05T00:00:00</Date>
+    <price>3000</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Chris methew</CustomerName>
+    <Phone>15127098775</Phone>
+    <ItemName>Arm chair</ItemName>
+    <Date>2020-01-06T00:00:00</Date>
+    <price>4500</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Willims Jorden</CustomerName>
+    <Phone>15127098775</Phone>
+    <ItemName>chair</ItemName>
+    <Date>2020-01-07T00:00:00</Date>
+    <price>3000</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Anja Roxe</CustomerName>
+    <Phone>15127098775</Phone>
+    <ItemName>Sofa</ItemName>
+    <Date>2020-01-08T00:00:00</Date>
+    <price>4800</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Nathan mitchel</CustomerName>
+    <Phone>15127098775</Phone>
+    <ItemName>Antique Light</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>9800</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Ronja Wade</CustomerName>
+    <Phone>15127098775</Phone>
+    <ItemName>Silver plates</ItemName>
+    <Date>0200-01-01T00:00:00</Date>
+    <price>4500</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Joe Leisel</CustomerName>
+    <Phone>15127098775</Phone>
+    <ItemName>Tea Spot</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>2500</price>
+  </Bill>
+  <Bill>
+    <CustomerName>peppi malia</CustomerName>
+    <Phone>15127098775</Phone>
+    <ItemName>Coffee Spot</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>800</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Ahe katoka</CustomerName>
+    <Phone>15127098775</Phone>
+    <ItemName>jar</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>1200</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Arpad dev</CustomerName>
+    <Phone>15127098775</Phone>
+    <ItemName>Jar</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>4500</price>
+  </Bill>
+  <Bill>
+    <CustomerName>seamus moshe</CustomerName>
+    <Phone>15127098775</Phone>
+    <ItemName>jar</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>7800</price>
+  </Bill>
+  <Bill>
+    <CustomerName>mariela drago</CustomerName>
+    <Phone>15127098775</Phone>
+    <ItemName>Arm Chair</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>7000</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Adelina lucero</CustomerName>
+    <Phone>15127098775</Phone>
+    <ItemName>Antiqe Glass</ItemName>
+    <Date>2021-01-01T00:00:00</Date>
+    <price>9000</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Write Customer Name</CustomerName>
+    <Phone>000000000</Phone>
+    <ItemName>Write item Name</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>0</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Write Customer Name</CustomerName>
+    <Phone>000000000</Phone>
+    <ItemName>Write item Name</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>0</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Write Customer Name</CustomerName>
+    <Phone>000000000</Phone>
+    <ItemName>Write item Name</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>0</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Write Customer Name</CustomerName>
+    <Phone>000000000</Phone>
+    <ItemName>Write item Name</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>0</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Write Customer Name</CustomerName>
+    <Phone>000000000</Phone>
+    <ItemName>Write item Name</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>0</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Write Customer Name</CustomerName>
+    <Phone>000000000</Phone>
+    <ItemName>Write item Name</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>0</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Write Customer Name</CustomerName>
+    <Phone>000000000</Phone>
+    <ItemName>Write item Name</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>0</price>
+  </Bill>
+  <Bill>
+    <CustomerName>Write Customer Name</CustomerName>
+    <Phone>000000000</Phone>
+    <ItemName>Write item Name</ItemName>
+    <Date>2020-01-01T00:00:00</Date>
+    <price>0</price>
+  </Bill>
+</ArrayOfBill>

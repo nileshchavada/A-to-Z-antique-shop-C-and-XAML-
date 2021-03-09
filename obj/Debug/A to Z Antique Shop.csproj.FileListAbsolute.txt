@@ -1,0 +1,49 @@
+C:\Users\Neel\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\MainWindow.g.cs
+C:\Users\Neel\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\App.g.cs
+C:\Users\Neel\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop_MarkupCompile.cache
+C:\Users\Neel\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop_MarkupCompile.lref
+C:\Users\Neel\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\bin\Debug\A to Z Antique Shop.exe.config
+C:\Users\Neel\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\bin\Debug\A to Z Antique Shop.exe
+C:\Users\Neel\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\bin\Debug\A to Z Antique Shop.pdb
+C:\Users\Neel\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\MainWindow.baml
+C:\Users\Neel\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.g.resources
+C:\Users\Neel\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A_to_Z_Antique_Shop.Properties.Resources.resources
+C:\Users\Neel\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.csproj.GenerateResource.cache
+C:\Users\Neel\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.csproj.CoreCompileInputs.cache
+C:\Users\Neel\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.exe
+C:\Users\Neel\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.pdb
+C:\Users\Neel\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.csprojAssemblyReference.cache
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\bin\Debug\A to Z Antique Shop.exe.config
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\bin\Debug\A to Z Antique Shop.exe
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\bin\Debug\A to Z Antique Shop.pdb
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.csprojAssemblyReference.cache
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\App.g.cs
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop_MarkupCompile.cache
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop_MarkupCompile.lref
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.g.resources
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A_to_Z_Antique_Shop.Properties.Resources.resources
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.csproj.GenerateResource.cache
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.csproj.CoreCompileInputs.cache
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.exe
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.pdb
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\Window1.g.cs
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\Window1.baml
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\MainWindow.g.cs
+C:\Users\Neel\OneDrive - SRH IT\Desktop\ACS\SEM 2\3.0 ACS\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\MainWindow.baml
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\bin\Debug\A to Z Antique Shop.exe.config
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\bin\Debug\A to Z Antique Shop.exe
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\bin\Debug\A to Z Antique Shop.pdb
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.csprojAssemblyReference.cache
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\MainWindow.g.cs
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\Window1.g.cs
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\App.g.cs
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop_MarkupCompile.cache
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop_MarkupCompile.lref
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\MainWindow.baml
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\Window1.baml
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.g.resources
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A_to_Z_Antique_Shop.Properties.Resources.resources
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.csproj.GenerateResource.cache
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.csproj.CoreCompileInputs.cache
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.exe
+C:\Users\Neel\OneDrive - SRH IT\Desktop\A to Z Antique Shop\A to Z Antique Shop\obj\Debug\A to Z Antique Shop.pdb

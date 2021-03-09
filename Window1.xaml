@@ -1,0 +1,99 @@
+﻿<Window x:Class="A_to_Z_Antique_Shop.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:A_to_Z_Antique_Shop"
+        mc:Ignorable="d"
+        Closed="Window_Closed"
+        Loaded="Window_Loaded"
+        
+        Title="Window1" Height="532" Width="914">
+    <Grid Margin="0,0,0,2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel x:Name="print" Grid.Column="1" Margin="0,0,0,10">
+            <StackPanel Height="48" VerticalAlignment="Top" Background="AntiqueWhite" Grid.Column="1" Margin="-30,0,0,0" Grid.ColumnSpan="3">
+                <TextBlock Height="23" TextWrapping="Wrap" Text="A  to Z  Antique shop" HorizontalAlignment="Left" Width="150" Margin="8,10,0,0" FontSize="15" FontWeight="Bold" Background="AntiqueWhite"/>
+            </StackPanel>
+            <StackPanel Height="27" VerticalAlignment="Top" Background="#FFEBEBEB" Grid.Column="1" Margin="10,0,0,0" Grid.ColumnSpan="3">
+                <TextBlock Height="25" TextWrapping="Wrap" Text="Bill" HorizontalAlignment="Left" Width="150" Margin="8,10,5,5" FontSize="12" FontWeight="Bold"   />
+            </StackPanel>
+
+
+
+            <StackPanel x:Name="Bill" Grid.Column="1" Margin="205,20,0,10" Orientation="Vertical" Height="320"  DataContext="{Binding ElementName=Lbx_Customer, Path=SelectedItem}" HorizontalAlignment="Left" Width="671">
+                <StackPanel Orientation="Horizontal" Height="35" Margin="50,10,170,8">
+
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,5,0" VerticalAlignment="Top" Height="30"  Text="Customer Name " Width="110" FontSize="12" Foreground="Black" FontFamily="Arial"/>
+                    <TextBox x:Name="CustomerName"  TextWrapping="WrapWithOverflow" FontFamily="Arial" FontSize="12"   Height="30" Width="320" Margin="10,0,0,0" Text="{Binding CustomerName}" />
+                </StackPanel>
+
+
+                <StackPanel Orientation="Horizontal" Height="35" Margin="50,10,170,8">
+
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,5,0" VerticalAlignment="Top" Height="30"  Text="Phone " Width="110" FontSize="12" Foreground="Black" FontFamily="Arial"/>
+                    <TextBox x:Name="Phone"  TextWrapping="WrapWithOverflow" FontFamily="Arial" FontSize="12"   Height="30" Width="320" Margin="10,0,0,0" Text="{Binding Phone}" />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Height="35" Margin="50,10,170,8">
+
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,5,0" VerticalAlignment="Top" Height="30"  Text="Item Name " Width="110" FontSize="12" Foreground="Black" FontFamily="Arial"/>
+                    <TextBox x:Name="ItemName" TextWrapping="WrapWithOverflow" FontFamily="Arial" FontSize="12"   Height="30" Width="320" Margin="10,-9,0,-1" Text="{Binding ItemName}" />
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="50,10,170,8">
+
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,5,0" VerticalAlignment="Top" Height="30"  Text="Date" Width="110" FontSize="12" Foreground="Black" FontFamily="Arial"/>
+
+                    <DatePicker x:Name="Date"   FontFamily="Arial" FontSize="12"   Height="30" Width="320" Margin="10,0,0,0" SelectedDate="{Binding Date ,StringFormat=\{0:dd/MM/yyyy\} }" DisplayDateStart="2020-01-01" />
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="50,10,170,8">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,5,0" VerticalAlignment="Top" Height="30"  Text="Price €" Width="110" FontSize="12" Foreground="Black" FontFamily="Arial"/>
+                    <TextBox x:Name="Price" TextWrapping="WrapWithOverflow" FontFamily="Arial" FontSize="12" Width="320" Margin="10,0,0,3" Text="{Binding price}" />
+                </StackPanel>
+               
+
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel x:Name="window" Margin="5,75,527,10" Orientation="Vertical" Grid.Column="1">
+            <TextBlock  FontFamily="Arial"  FontSize="12" Foreground="black" Margin ="5,0,10,0" Height="20"><Run Text="Enter the Customer Name to filter "/></TextBlock>
+            <TextBox x:Name="Tbx_Filter" FontSize="12" Width="149" FontFamily="Arial"  TextChanged="Tbx_Filter_TextChanged" HorizontalAlignment="Left" Text="" Height="15" Margin="5,0,0,0"/>
+            <ListBox x:Name="Lbx_Customer" HorizontalAlignment="Left" Height="290" Margin="5,0,0,0"
+              FontFamily="Arial"  FontSize="12"  VerticalAlignment="Top" Width="175"  SelectionChanged="Lbx_Customer_SelectionChanged">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Margin="0,0,0,0">
+                            <Run Text="{Binding CustomerName}" FontFamily="Arial" FontWeight="Bold"  />
+
+                        </TextBlock>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <StackPanel Orientation="Horizontal" Height="105" Margin="5,5,10,0">
+                <Button  x:Name ="Btn_add" Content="Add " FontFamily="Arial"  FontSize="12" HorizontalAlignment="Right" Width="80" Click="Btn_add_Click" Margin="0,0,8,75" Background="AntiqueWhite"
+                         />
+                <Button x:Name="Btn_Print"  Content="Print Receipt" FontFamily="Arial" FontSize="12" Margin="0,0,8,75" HorizontalAlignment="Left" Width="80" Click="Btn_print_Click" Background="AntiqueWhite"/>
+
+            </StackPanel>
+ 
+
+        </StackPanel>
+
+
+
+        <Grid Name="Grd_Menu" HorizontalAlignment="Left" Height="500" VerticalAlignment="Top" Width="25" Margin="0,50,0,-41"  MouseEnter="Grd_Menu_MouseEnter" MouseLeave="Grd_Menu_MouseLeave" Background="AntiqueWhite" Grid.ColumnSpan="2" >
+            <Image Source ="Images/menu.png" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,480" Width="15"/>
+
+            <Button x:Name="btn_item_manage"  Content="Item Manage"  HorizontalAlignment="Center"  VerticalAlignment="Top"  Background="AntiqueWhite"  Width="100" Grid.Column="1" Margin="30,63,20,10" Height="50" FontFamily="Arial" FontWeight="Bold" />
+
+            <Button x:Name="btn_Bill"  Content="Bill" HorizontalAlignment="Right" Background="AntiqueWhite" VerticalAlignment="Top" Width="100" Grid.Column="1" Margin="30,150,20,10" Height="50" FontFamily="Arial" FontWeight="Bold"  />
+
+
+        </Grid>
+    </Grid>
+</Window>
